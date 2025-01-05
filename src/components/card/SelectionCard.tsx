@@ -40,8 +40,8 @@ const SelectionCard: FunctionComponent<SelectionCardProps> = ({
             onClick={() => removeSelection(selection.id)}
             className="group flex cursor-pointer items-center gap-1 pt-2"
           >
-            <img src={xIcon} className="size-4 text-red-500" alt="plus-icon" />
-            <button className="text-sm font-medium text-gray-400 focus:outline-none group-hover:text-gray-500">
+            <img src={xIcon} className="size-4 text-red-500" alt="x-icon" />
+            <button className="text-sm font-medium text-gray-500 focus:outline-none ">
               Remove
             </button>
           </div>

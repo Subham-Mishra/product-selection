@@ -36,7 +36,7 @@ export const ProductSelectionPage = () => {
   return (
     <div className="p-12">
       <div className="flex justify-between">
-        <Heading level={2}>axiamatic</Heading>
+        <Heading level={2}>Product Selection Setup</Heading>
         <TextButton onClick={navigateOutOfSetup}>Exit Setup</TextButton>
       </div>
       <div className="my-12 grid grid-cols-1 px-2 md:my-36 lg:grid-cols-2 lg:px-24">

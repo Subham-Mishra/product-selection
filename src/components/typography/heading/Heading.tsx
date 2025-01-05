@@ -7,7 +7,9 @@ type HeadingProps = {
 }
 
 const Heading: FunctionComponent<HeadingProps> = ({ level, children }) => {
-  return <h2 className={headingClasses(level)}>{children}</h2>
+  return (
+    <h2 className={'text-gray-700 ' + headingClasses(level)}>{children}</h2>
+  )
 }
 
 export { Heading }
